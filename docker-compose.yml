@@ -1,9 +1,9 @@
-version:"3.8"
+version: "3.8"
 services:
   kirara-agent:
-    image:lss233/kirara-agent-framework:latest
-    container_name:kirara-agent
-    restart:always
+    image: lss233/kirara-agent-framework:latest
+    container_name: kirara-agent
+    restart: always
     volumes:
       - ./data:/app/data
     ports:
