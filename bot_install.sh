@@ -9,10 +9,10 @@ mkdir -p astrbot && cd astrbot
 wget -O astrbot.yml https://raw.githubusercontent.com/NapNeko/NapCat-Docker/main/compose/astrbot.yml
 sudo docker compose -f astrbot.yml up -d
 echo -e "\n===== 部署完成！访问信息如下 ====="
-echo "1. Napcat 访问：浏览器打开 http://你的服务器IP:6099"
-echo "   默认登录名：napcat"
-echo "2. Astrbot 访问：浏览器打开 http://你的服务器IP:6185"
-echo "   默认登录名：astrbot"
+echo "1. \n===Napcat: http://服务器IP:6099==="
+echo "   \n===默认登录名：napcat==="
+echo "2. \n===Astrbot：http://服务器IP:6185==="
+echo "   \n===登录名/密码：astrbot==="
 echo -e "\n提示：若需重启服务，可执行以下命令："
 echo "cd astrbot && sudo docker compose -f astrbot.yml up -d"
 echo -e "\n有问题加QQ群：1038052408"
