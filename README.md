@@ -20,10 +20,9 @@ curl -sSL https://raw.githubusercontent.com/mingzy-lz/lzp_install/main/bot_insta
 2.手动安装
 ~~~sh
 # 下载安装脚本
-wget https://github.com/mingzy-lz/lzp_install/blob/main/bot_install.sh
 
 # 给予运行权限
-sudo chmod + x bot_install.sh
+sudo chmod +x bot_install.sh
 
 # 运行
 ./bot_install.sh
